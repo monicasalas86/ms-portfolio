@@ -7,10 +7,14 @@ main {
   hyphens: auto;
   line-height: 1.65;
   margin: 0 auto;
-  max-width: 680px;
+  max-width: 100vw;
   min-height: 100vh;
   padding: 72px 0;
   text-align: center;
+  height: 100vh;
+  background: rgb(234,233,242);
+  background: linear-gradient(21deg, rgba(234,233,242,1) 0%, rgba(75,226,223,1) 35%, rgba(228,97,233,1) 100%);
+  
 }
 h1 {
   font-size: 45px;
@@ -42,3 +46,21 @@ code:before,
 code:after {
   content: '\`';
 }
+
+/* header styling */
+header {
+  height: 100%;
+  display: flex;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+nav {
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navlink {
+  color: white;
+}
+
+/* intro styling */
