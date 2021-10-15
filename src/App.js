@@ -2,8 +2,8 @@ import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
-import About from './components/About';
-import Skills from './components/Skills';
+import About from './components/About.js';
+import Skills from './components/Skills.js';
 import './App.css';
 
 const App = () => {
